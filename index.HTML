@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <nav class="navbutons">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>resume</li>
+            <li>work</li>
+        </ul>
+    </nav>
+    <style>
+        *{
+            font-family:Arial, sans-serif;
+        }
+        .navbutons li{
+            list-style:none;
+            display: inline-block;
+        }
+        li{
+            font-weight: 500px;
+            font-size: 16px;
+            color:black;
+            text-decoration: none;
+            display:flex;
+            text-align: center;
+            justify-content: space-between;
+            padding: 25px 10%;
+
+        }
+        .rashford img{
+            padding: 10px;
+            position: relative;
+            left: 300px;
+            top: 5px;
+            border-radius: 20px;
+        }
+        body {
+            background-color: rgb(16, 219, 255);
+        }
+        .title_rash {
+            text-align: center;
+        }
+    </style>
+    <h1 class="title_rash"><b>WELCOME TO RASHFORD'S PORTFOLIO</b></h1>
+    <figure class="rashford">
+        <img src="midou.jpg" alt="img rashford" height="400" weight="1000">
+    </figure>
+    <section>
+        <h1>RASHFORD'S STORY:</h1>
+        <p>Marcus Rashford is an English footballer who plays as a striker for Manchester United and the England national football team.<br> Joining Manchester United at the age of seven, he scored two goals on his first-team debut against Midtjylland in<br> the UEFA Europa League in February 2016 and his Premier League debut against Arsenal three days later.</p>
+    </section>
+    <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RluLiBekfG8" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value>
+      </form>
+
+</body>
+</html>
